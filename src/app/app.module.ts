@@ -22,6 +22,7 @@ import { OrkutImgComponent } from './components/orkut-img/orkut-img.component';
 import { OrkutMenuComponent } from './components/orkut-menu/orkut-menu.component';
 import { ProfileRatesComponent } from './pages/profile/profile-description/profile-rates/profile-rates.component';
 import { ProfileInfosComponent } from './pages/profile/profile-description/profile-infos/profile-infos.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ProfileInfosComponent } from './pages/profile/profile-description/profi
     OrkutMenuComponent,
     LoginTitleComponent,
     ProfileRatesComponent,
-    ProfileInfosComponent
+    ProfileInfosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
