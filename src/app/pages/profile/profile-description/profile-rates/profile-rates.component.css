@@ -1,0 +1,35 @@
+.container__rates {
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-bottom: 5%;
+}
+
+img {
+    max-width: 25px;
+}
+
+.rates p {
+    text-align: center;
+    height: 30px;
+    color: var(--pink-color);
+    font-weight: 700;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon img:hover, .rates p:hover {
+    background-color: var(--ligth-pink-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon p {
+    font-weight:300;
+}

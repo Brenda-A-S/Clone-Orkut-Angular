@@ -1,0 +1,22 @@
+.logo__text {
+    font-weight: 700;
+    margin: 10px 0;
+    color: var(--silver-color);
+    max-width: 100%;
+    display: none;    
+}
+
+.logo__text span {
+    color: var(--pink-color);
+}
+
+.logo__text {
+        flex-direction: column;
+        font-size: 1.5rem;
+}
+
+@media(min-width:800px){
+    .logo__text{
+        display: inherit;
+    }
+}

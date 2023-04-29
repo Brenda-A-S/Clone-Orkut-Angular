@@ -1,0 +1,15 @@
+.container__list ul li {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.container__list ul li img {
+    width: 20px;
+}
+
+.container__list ul li:hover {
+    background-color: var(--ligth-pink-color);
+    border-radius: 5px;
+}

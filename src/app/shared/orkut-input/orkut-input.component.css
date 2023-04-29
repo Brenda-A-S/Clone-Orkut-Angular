@@ -1,0 +1,13 @@
+.fields__title {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.fields__title input {
+    border-radius: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid silver;
+}

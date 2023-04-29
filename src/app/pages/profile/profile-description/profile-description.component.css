@@ -1,0 +1,24 @@
+.container__profile {
+    padding: 30px;
+}
+
+.profile__name, .profile__rates, .profile__infos {
+    margin-bottom: 20px;
+}
+
+.profile__name h1 {
+    margin-bottom: 10px;
+    color: var(--pink-color);
+}
+
+.profile__name small {
+    font-style: italic;
+}
+
+.profile__name .small {
+    background-color: var(--ligth-pink-color);
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+

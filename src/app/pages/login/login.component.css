@@ -1,0 +1,17 @@
+.container__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 30px;
+    height: 85vh;
+}
+
+@media(min-width:800px){
+    .container__login {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;        
+    }
+}

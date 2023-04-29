@@ -1,0 +1,30 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .8rem;
+    width: 70px;
+    margin: 10px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.round img {
+    border-radius: 100%;
+    border: 1px solid var(--pink-color);
+}
+
+.square img {
+    border-radius: 20%;
+    border: 1px solid var(--silver-color);
+}
+
+.photo {
+    margin: 2px;
+    width: 60px;
+}

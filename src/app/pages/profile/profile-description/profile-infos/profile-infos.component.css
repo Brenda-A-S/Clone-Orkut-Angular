@@ -1,0 +1,39 @@
+.infos td {
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.col1 {
+    width: 150px;
+    font-weight: 300;
+    color: var(--pink-color);
+}
+
+.col2 {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    font-style: italic;    
+}
+
+.infos tr:hover {
+    background-color: var(--ligth-pink-color);
+}
+
+.infos td span {
+    border: 1px solid var(--pink-color);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+@media(max-width:900px) {
+    .col1 {
+        width: 60px;        
+    }
+    .col1, .col2 {
+        font-size: .9rem;
+    }
+}

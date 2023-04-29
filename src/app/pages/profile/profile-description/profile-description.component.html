@@ -1,0 +1,24 @@
+<div class="container__profile">
+    <div class="profile__name">
+        <h1>{{ name }}</h1>
+        <div class="small">
+            <small>"{{ phrase }}"</small>
+        </div>
+    </div>
+    <div class="profile__rates">
+        <app-profile-rates></app-profile-rates>
+    </div>
+    <div class="profile__infos">
+        <app-profile-infos
+        relationship="{{ relationship }}"
+        who_am_I="{{who_am_I}}"
+        local="{{local}}"
+        occupation="{{occupation}}"
+        interests="{{interests}}"
+        musics="{{musics}}"
+        films="{{films}}"
+        books="{{books}}"
+
+        ></app-profile-infos>
+    </div>
+</div>

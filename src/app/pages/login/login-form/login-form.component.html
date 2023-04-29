@@ -1,0 +1,46 @@
+<div class="container__login">
+    <div class="fields">
+        <div class="fields__title">
+            <p id="desktop">Acesse o <span>Orkut</span> com sua conta do <app-google-title></app-google-title>!</p>
+            <p id="mobile" ><span>Olá</span> <br> Que bom ter você aqui!</p>
+        </div>
+
+        <br>
+
+        <div class="fields__textboxs">
+            <app-orkut-input 
+            type="text" 
+            name="" 
+            id="field_email"                
+            placeholder="E-mail ou número do celular"
+            ></app-orkut-input>
+            <app-orkut-input 
+            type="password" 
+            name="" 
+            id="field_pass" 
+            placeholder="Senha"
+            ></app-orkut-input>
+        </div>
+
+        <div class="fields-remember">
+            <input type="checkbox" name="" id="field_remember">
+            <label for="field_remember"> Lembrar sempre do meu acesso</label>
+        </div>
+
+        <br>
+
+        <div class="fields__buttons">
+            <app-orkut-button text="Entrar" href="/profile"></app-orkut-button>
+        </div>
+
+        <div class="fields__recover">
+            <a href="#">Esqueci senha ou e-mail</a>
+        </div>
+
+        <br>
+
+        <div class="fields__create">
+            <a href="#">Não tem conta? <span> Criar agora </span> </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.field__button {
+    margin-bottom: 5px;
+}
+
+.field__button button{
+    width: 100%;
+    background-color: var(--pink-color);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+}
+
+.field__button button:hover{
+    cursor: pointer;
+}
+
+.field__button .white button{
+    background-color: white;
+    color: var(--pink-color);
+}

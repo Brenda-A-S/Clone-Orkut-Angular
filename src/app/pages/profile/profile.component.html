@@ -1,0 +1,39 @@
+<div class="menu-nav">
+    <app-orkut-menu></app-orkut-menu>
+</div>
+<div class="container__profile">
+    <div class="profile__photo">
+        <app-orkut-side-profile name="{{ name }}"
+            photo="{{profile.profile_photo}}"></app-orkut-side-profile>
+    </div>
+    <div class="profile__description">
+        <app-profile-description 
+        name="{{ name }}"
+        phrase="{{profile.phrase}}"
+        relationship="{{ profile.relationship }}"
+        who_am_I="{{profile.who_am_I}}"
+        local="{{profile.local}}"
+        occupation="{{profile.occupation}}"
+        interests="{{profile.interests.join(' | ')}}"
+        musics="{{profile.musics.join(' | ')}}"
+        films="{{profile.films.join(' | ') + ' | ' + profile.series.join(' | ')}}"
+        books="{{profile.books.join(' | ')}}"
+        ></app-profile-description>
+    </div>
+    <div class="profile__counters">
+        <div class="profile__counter">
+            <h2>Amigos</h2>
+            <div class="counter">
+                <app-orkut-img *ngFor=" let friend of friends" photoType="round" name="{{friend.name}}"
+                    photo="{{friend.photo}}"></app-orkut-img>
+            </div>
+        </div>
+
+        <div class="profile__counter">
+            <h2>Comunidades</h2>
+            <div class="counter">
+                <app-orkut-img *ngFor=" let comunity of comunities" photoType="square" name="{{comunity.name}}" photo="{{comunity.photo}}"></app-orkut-img>
+            </div>
+        </div>
+    </div>
+</div>
