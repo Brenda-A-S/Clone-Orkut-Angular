@@ -16,6 +16,8 @@ Além disso, foi utilizado o seguinte Framework para tornar as páginas dinâmic
 
  # :open_file_folder: Os resultados
  
+ ![Design sem nome](https://user-images.githubusercontent.com/69852246/235329031-664e5cc3-47ad-472a-82d6-12f43e81b75c.gif)
+ 
 <div align="center">✨ Página de Login...</div>
 
 ![localhost_4200_ (7)](https://user-images.githubusercontent.com/69852246/235327943-83cb1586-7130-49f4-bf87-3d633e0515fe.png)
